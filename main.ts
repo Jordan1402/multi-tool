@@ -1,110 +1,110 @@
 function compass_heading () {
-    if (input.temperature() > 0 && input.temperature() < 10) {
+    if (input.compassHeading() > 0 && input.compassHeading() < 10) {
         basic.showNumber(10)
     }
-    if (input.temperature() > 10 && input.temperature() < 20) {
+    if (input.compassHeading() > 10 && input.compassHeading() < 20) {
         basic.showNumber(20)
     }
-    if (input.temperature() > 20 && input.temperature() < 30) {
+    if (input.compassHeading() > 20 && input.compassHeading() < 30) {
         basic.showNumber(30)
     }
-    if (input.temperature() > 30 && input.temperature() < 40) {
+    if (input.compassHeading() > 30 && input.compassHeading() < 40) {
         basic.showNumber(40)
     }
-    if (input.temperature() > 40 && input.temperature() < 50) {
+    if (input.compassHeading() > 40 && input.compassHeading() < 50) {
         basic.showNumber(50)
     }
-    if (input.temperature() > 50 && input.temperature() < 60) {
+    if (input.compassHeading() > 50 && input.compassHeading() < 60) {
         basic.showNumber(60)
     }
-    if (input.temperature() > 60 && input.temperature() < 70) {
+    if (input.compassHeading() > 60 && input.compassHeading() < 70) {
         basic.showNumber(70)
     }
-    if (input.temperature() > 70 && input.temperature() < 80) {
+    if (input.compassHeading() > 70 && input.compassHeading() < 80) {
         basic.showNumber(80)
     }
-    if (input.temperature() > 80 && input.temperature() < 90) {
+    if (input.compassHeading() > 80 && input.compassHeading() < 90) {
         basic.showNumber(90)
     }
-    if (input.temperature() > 90 && input.temperature() < 100) {
+    if (input.compassHeading() > 90 && input.compassHeading() < 100) {
         basic.showNumber(100)
     }
-    if (input.temperature() > 100 && input.temperature() < 110) {
+    if (input.compassHeading() > 100 && input.compassHeading() < 110) {
         basic.showNumber(110)
     }
-    if (input.temperature() > 110 && input.temperature() < 120) {
+    if (input.compassHeading() > 110 && input.compassHeading() < 120) {
         basic.showNumber(120)
     }
-    if (input.temperature() > 120 && input.temperature() < 130) {
+    if (input.compassHeading() > 120 && input.compassHeading() < 130) {
         basic.showNumber(130)
     }
-    if (input.temperature() > 130 && input.temperature() < 140) {
+    if (input.compassHeading() > 130 && input.compassHeading() < 140) {
         basic.showNumber(140)
     }
-    if (input.temperature() > 140 && input.temperature() < 150) {
+    if (input.compassHeading() > 140 && input.compassHeading() < 150) {
         basic.showNumber(150)
     }
-    if (input.temperature() > 150 && input.temperature() < 160) {
+    if (input.compassHeading() > 150 && input.compassHeading() < 160) {
         basic.showNumber(160)
     }
-    if (input.temperature() > 160 && input.temperature() < 170) {
+    if (input.compassHeading() > 160 && input.compassHeading() < 170) {
         basic.showNumber(170)
     }
-    if (input.temperature() > 170 && input.temperature() < 180) {
+    if (input.compassHeading() > 170 && input.compassHeading() < 180) {
         basic.showNumber(180)
     }
-    if (input.temperature() > 180 && input.temperature() < 190) {
+    if (input.compassHeading() > 180 && input.compassHeading() < 190) {
         basic.showNumber(190)
     }
-    if (input.temperature() > 190 && input.temperature() < 200) {
+    if (input.compassHeading() > 190 && input.compassHeading() < 200) {
         basic.showNumber(200)
     }
-    if (input.temperature() > 200 && input.temperature() < 210) {
+    if (input.compassHeading() > 200 && input.compassHeading() < 210) {
         basic.showNumber(210)
     }
-    if (input.temperature() > 210 && input.temperature() < 220) {
+    if (input.compassHeading() > 210 && input.compassHeading() < 220) {
         basic.showNumber(220)
     }
-    if (input.temperature() > 220 && input.temperature() < 230) {
+    if (input.compassHeading() > 220 && input.compassHeading() < 230) {
         basic.showNumber(230)
     }
-    if (input.temperature() > 230 && input.temperature() < 240) {
+    if (input.compassHeading() > 230 && input.compassHeading() < 240) {
         basic.showNumber(240)
     }
-    if (input.temperature() > 240 && input.temperature() < 250) {
+    if (input.compassHeading() > 240 && input.compassHeading() < 250) {
         basic.showNumber(250)
     }
-    if (input.temperature() > 250 && input.temperature() < 260) {
+    if (input.compassHeading() > 250 && input.compassHeading() < 260) {
         basic.showNumber(260)
     }
-    if (input.temperature() > 260 && input.temperature() < 270) {
+    if (input.compassHeading() > 260 && input.compassHeading() < 270) {
         basic.showNumber(270)
     }
-    if (input.temperature() > 270 && input.temperature() < 280) {
+    if (input.compassHeading() > 270 && input.compassHeading() < 280) {
         basic.showNumber(280)
     }
-    if (input.temperature() > 280 && input.temperature() < 290) {
+    if (input.compassHeading() > 280 && input.compassHeading() < 290) {
         basic.showNumber(290)
     }
-    if (input.temperature() > 290 && input.temperature() < 300) {
+    if (input.compassHeading() > 290 && input.compassHeading() < 300) {
         basic.showNumber(300)
     }
-    if (input.temperature() > 300 && input.temperature() < 310) {
+    if (input.compassHeading() > 300 && input.compassHeading() < 310) {
         basic.showNumber(310)
     }
-    if (input.temperature() <= 310 && input.temperature() < 320) {
+    if (input.compassHeading() <= 310 && input.compassHeading() < 320) {
         basic.showNumber(320)
     }
-    if (input.temperature() > 320 && input.temperature() < 330) {
+    if (input.compassHeading() > 320 && input.compassHeading() < 330) {
         basic.showNumber(330)
     }
-    if (input.temperature() > 330 && input.temperature() < 340) {
+    if (input.compassHeading() > 330 && input.compassHeading() < 340) {
         basic.showNumber(340)
     }
-    if (input.temperature() > 340 && input.temperature() < 350) {
+    if (input.compassHeading() > 340 && input.compassHeading() < 350) {
         basic.showNumber(350)
     }
-    if (input.temperature() > 350 && input.temperature() < 360) {
+    if (input.compassHeading() > 350 && input.compassHeading() < 360) {
         basic.showNumber(360)
     }
 }
@@ -254,7 +254,7 @@ function read_temp () {
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B)) {
         basic.clearScreen()
-        basic.pause(3000)
+        basic.pause(2000)
     } else {
         if (input.lightLevel() > 150) {
             basic.showLeds(`
