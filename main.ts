@@ -1,12 +1,36 @@
-let sos = 0
 input.onButtonPressed(Button.A, function () {
     basic.showNumber(input.temperature())
+    basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(input.compassHeading())
+    basic.clearScreen()
 })
 input.onLogoEvent(TouchButtonEvent.Touched, function () {
     sos = -1
+})
+let sos = 0
+pins.digitalWritePin(DigitalPin.P0, 0)
+sos = -1
+basic.forever(function () {
+    if (input.lightLevel() > 150) {
+        basic.showLeds(`
+            # . # . #
+            . # # # .
+            # # # # #
+            . # # # .
+            # . # . #
+            `)
+    }
+    if (input.lightLevel() < 150) {
+        basic.showLeds(`
+            . # # # #
+            # # # . .
+            # # . . .
+            # # # . .
+            . # # # #
+            `)
+    }
 })
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A) && input.buttonIsPressed(Button.B)) {
@@ -31,31 +55,6 @@ basic.forever(function () {
                 basic.pause(500)
             }
             basic.pause(2000)
-        }
-    }
-})
-basic.forever(function () {
-    if (input.buttonIsPressed(Button.A) || input.buttonIsPressed(Button.B)) {
-        basic.clearScreen()
-        basic.pause(2000)
-    } else {
-        if (input.lightLevel() > 150) {
-            basic.showLeds(`
-                # . # . #
-                . # # # .
-                # # # # #
-                . # # # .
-                # . # . #
-                `)
-        }
-        if (input.lightLevel() < 150) {
-            basic.showLeds(`
-                . # # # #
-                # # # . .
-                # # . . .
-                # # # . .
-                . # # # #
-                `)
         }
     }
 })
